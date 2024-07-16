@@ -1,0 +1,312 @@
+body{
+    background-color: #e8edf4;
+}
+.headerr{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    align-items: center;
+}
+.h1{
+    color:gray;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.h2{
+    color: #6b6be5;   
+}
+.slide1{
+    width: 100%;
+    height: 100svh;
+    background-image: url(../../4img.jpg);
+    background-size:cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+.content{
+    margin-bottom: 100px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.icons{
+    margin-bottom:100px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    padding: 20px;
+    width: 350px;
+}
+.b1{
+    height: 100px;
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: blue;
+    text-transform: capitalize;
+    flex-direction: column;
+}
+.ba1{
+    height: 40px;
+    width: 40px;
+    background-color: #dcd9d9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.we{
+    font-size: 45px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal; 
+}
+.duis{
+    font-size: 12px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 0px 15%;
+}
+.headd{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: start;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+.c1{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 300px;
+    /* flex-wrap: wrap; */
+    background-color: white; 
+    padding:10px 30px;
+    border-radius: 15px;
+}
+.tick{
+    display: flex;
+    align-items: center;
+    color: blue;
+}
+.d1{
+    width: 10px;
+    height:100%;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    font-size: 50px;
+}
+.paraa{
+    font-size: 10px;
+    text-align: start;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+.slide3{
+    background-color: white;
+    width: 100%;
+    height: 100svh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    background-color: blue;
+    height: 400px;
+    margin-right: 150px;
+    width: 500px;
+    border-radius: 20px;
+    padding: 40px 180px 40px 40px;
+    color: white;
+    position: absolute;
+}
+.s1{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 35px;
+}
+.s2{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 14.5px;
+}
+.s3{
+    height: fit-content;
+    width: fit-content;
+    padding: 7px 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    margin-top: 40px;
+}
+.hello{
+    position: absolute;
+    background-color: #dcd9d9;
+    border-radius: 20px;
+    padding:80px 20px 0px 20px;
+    top: 60;
+    left: 550;
+    background: url("../person.jpeg");
+    background-size: 100% 100%;
+   height: 400px;
+   width: 300px;
+}
+.slide4{
+    background-color: white;
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+}
+.long{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height: 100%;
+    width: 500px;
+}
+.phone{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.about{
+    text-align: start;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 14.5px;
+    text-transform: capitalize;
+}
+.build{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.article{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.all{
+    padding-left: 100px;
+}
+.read{
+    color: white;
+    background-color: blue;
+    height: fit-content;
+    width: fit-content;
+    padding: 7px 15px;
+    font-size: 13px;
+    border-radius: 15px;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.footerr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+}
+.mobile{
+    background-color: blue;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.hi{
+    color: white;
+}
+.let{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.have{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 13px;
+}
+.contact{
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    padding: 7px 15px;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}

@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>
+            card
+        </title>
+        <style>
+            .parent{
+             /* overflow: hidden; */
+                width:500px;
+                height: 500px;
+               position: relative;
+              perspective: 5px;
+              border:1px solid black;
+              background-color: white;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+                
+            }
+            body{  
+              
+
+                perspective: 100px;
+                display: flex;
+                justify-content: center;
+               align-items: center;
+              
+              
+            }
+            .child1{
+               left:0px;
+               /* top:150px; */
+                width:250px;
+                height: 340px;
+                position: absolute;
+                transform-style: preserve-3d;
+                transform:rotateY(-45deg);
+                background-color: green;
+                
+            }
+            .child2{
+              top:0px;
+                /* width:350px;
+                height: 150px; */
+                width:400px;
+                height: 200px;
+                position: absolute;
+                background-color: black;
+                transform-style: preserve-3d;
+                transform:rotateX(-45deg);
+            }
+            .child3{
+
+                width:245px;
+                height: 245px;
+                position: absolute;
+                /* background-color: white; */
+                /* transform-style: preserve-3d; */
+              border-radius: 100%;
+              /* background-image: url(../fr.webp); */
+              background-size: 100% 100%;
+                z-index: 1;
+
+            }
+            .child3:hover{
+                box-shadow: 0 0 5px 5px greenyellow;
+                transform: scale(1.1);
+            }
+            .child4{
+               right: 0px;
+               
+                /* width:200px;
+                height: 400px; */
+                width:250px;
+                height: 340px;
+                position: absolute;
+                background-color: green;
+                transform-style: preserve-3d;
+                transform:rotateY(45deg);
+            }
+            .child5{
+                bottom: 0px;
+               
+                width:400px;
+                height: 200px;
+                position: absolute;
+                background-color: black;
+                transform-style: preserve-3d;
+                transform:rotateX(-45deg);
+            }
+            </style>
+            </head>
+            <body>
+                <div class="parent">
+                    <div class="child1">vxhbcjbdcbkcncnkjlsbdwkkwkwkisdkdjdjdjjdjdj</div>
+                    <div class="child2"></div>
+                    <div class="child3"></div>
+                    <div class="child4"></div>
+                    <div class="child5"></div>
+
+
+
+                </div>
+            </body>
+            </html>

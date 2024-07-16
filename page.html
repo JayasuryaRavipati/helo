@@ -1,0 +1,216 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> </title>
+        <style>
+            
+.parent{
+    width:100%;
+    height: 100%;
+    border: 1px solid white;
+    position:relative;
+}
+.child1{
+background:linear-gradient(to top right, rgb(27, 122, 119),rgb(162, 216, 214)  );
+    height: 50%;
+    border: 1px sloid black;
+    
+}
+.child2{
+    
+    background-color: rgb(75, 149, 152);
+    width:100%;
+    height: 50%;
+  
+    position: relative;
+}
+.nav{
+    padding-top: 25px;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 500px;
+color:whitesmoke;
+
+}.icon{
+  top:15px;
+    width: 200px;
+    height: 50px;
+    left:80px;
+    
+    font-size: 20px;
+    position:absolute;
+    display: flex;
+    
+}
+a{
+    padding-right: 20px;
+}
+.txt{
+    position:absolute;
+    top:10px;
+    width: 100%;
+    height: 100px;
+    /* background-color: aliceblue; */
+    top:100px;
+
+}
+.txt1{
+    align-items: center;
+    justify-content: center;
+   padding-left:540px;
+   color:white;
+   font-size: 50px;
+}
+.txt2{
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+   padding-left:590px;
+   color:black;
+   font-size: 20px;
+}
+.search{
+    position:absolute;
+width:60%;
+background-color: white;
+height: 70px;
+left:300px;
+border-radius: 30px;
+top:210px;
+   display: flex;
+   /* justify-content: center; 
+   align-items: center; */
+  flex-direction: column;
+}
+.searchicon{
+    padding-top:30px;
+    width:60px;
+    height: 60px;
+    padding-left:30px;
+}
+.p{
+    top:20px;
+    width: 50px;
+    height: 50px;
+  
+    border-radius: 100%;
+    background-color: white;
+margin-left:1500px;
+  
+
+  position: absolute;
+    /* display: flex; */
+}
+.picon{
+    top:20px;
+    width: 50px;
+    
+    left:15px;
+    /* justify-content: center;
+    align-items: center; */
+    
+    position:absolute;
+    display: flex;
+}
+.card1{
+position: relative;
+width:400px;
+border-radius: 30px;
+height: 100%;
+display: flex;
+bottom:80px;
+left:250px;
+justify-content: space-around;
+background-color: white;
+}
+.card2{
+position: absolute;
+width:550px;
+border-radius: 30px;
+height: 100%;
+display: flex;
+bottom:80px;
+left:900px;
+justify-content: space-around;
+background-color: white;
+}
+.img{
+    position: absolute;
+    background-image:url("../../img21.png");
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+}
+.logo{
+   width:200px;
+   height: 30px;
+  background-color: black;
+    position:absolute;
+    margin-left:730px;
+    margin-bottom:30px;
+
+}
+.p{
+    top:20px;
+    left:20px;
+}
+#text{
+    height:70px;
+    width:730px;
+    left:30px;
+    position: relative;
+    bottom:45px;
+    border:transparent;
+}
+        </style>
+
+</head>
+<body>
+    
+    <div class="parent">
+        <div class="child1">
+            <div class="icon">
+                <i class="fa-solid fa-clone fa-rotate-270 fa-2xl" style="color: #262627;"></i><label><p>Topic</p></label>
+            </div>
+            <header><div class="nav">
+                <a>HOME</a>
+                <a>BROWSE TOPICS</a>
+                <a>HOW IT WORKS</a>
+                <a>FAQS</a>
+                <a>CONTACT</a>
+                <a>PAGES &#11206;</a>
+                <div class="p">
+                    <div class="picon">
+                        <i class="fa-regular fa-user" style="color: #121212;"></i>                </div>
+                    </div>
+                </div>
+            </header>
+               <div class="txt" >
+                 <div class="txt1">Discover.Learn.Enjoy</div>
+                 <div class="txt2">platform for creatives around the world</div>
+                </div>
+                <div class="search" >
+                    <div class="searchicon"><i class="fa-solid fa-magnifying-glass" style="color: #383838;"> </i>
+                        <input id="text" placeholder="Design,Code,Marketing,Finance"/>
+                        <div class="logo">search</div>
+                        
+                   </div>
+                    
+                </div> 
+               
+    
+        </div>
+       <div class="child2">
+<div class="card1">
+    <div class="tt1"></div>
+    <div class="img"></div>
+</div>
+<div class="card2">
+    <div class="tt2"></div>
+
+    <div class="img1"></div>
+</div>
+
+        </div>
+    </div>
+</body>
+</html>

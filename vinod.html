@@ -1,0 +1,416 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <style>
+           
+            .parent{
+                width: 100%;
+                height: 400svh;
+                border: 1px solid black;
+
+            }
+            .child{
+                width: 100%;
+                height: 100svh;
+                border: 1px solid red;
+            }
+            .header{
+                width: 100%;
+                height: 8%;
+                background-color: rgb(239, 245, 245);
+            }
+            .laptop-img{
+                width: 100%;
+                height: 92%;
+                background-image: url(./img/laptop.jpg);
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                display: flex;
+            }
+            .mobilApp{
+                width: 50%;
+                height: 100%;
+                border: 1px solid black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 30px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .mobilApp h1{
+                margin-top: 300px;
+                margin-left: 130px;
+            }
+            .icons{
+                width: 60%;
+                height: 100%;
+                border: 1px solid black;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-end;
+            }
+            .icon1{
+                width: 600px;
+                height: 450px;
+                border: 1px solid black;
+                display: grid;
+                grid-template-columns: 1fr 4fr;
+                grid-template-rows: 1fr 3fr;
+               
+            }
+            .sq{
+                margin-top: 30px;
+                width: 170px;;
+                height: 170px;
+                background-color: white;
+                margin-left: 100px;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+               
+                align-items: center;
+              
+            }
+            .child:nth-child(2)
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: #F2F2F2;
+            }
+            .text{
+                margin-top: 40px;
+                font-size: 50px;
+            }
+            .text1{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-right: 30px;
+              font-size: 17px;
+              margin-top: 20px;
+            }
+            .box{
+                width: 100%;
+                height: 30%;
+            
+                margin-top: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 60px;
+                flex-wrap: wrap;
+            }
+            .box1{
+                width: 470px;
+                height: 70%;
+                
+                border-radius: 20px;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .tick{
+                width: 90px;
+                height: 100%;
+               
+                display: flex;
+                justify-content: center;
+            }
+            .tick1{
+                width: 45px;
+                height: 45px;
+                border-radius: 100%;
+              
+                margin-top: 15px;
+                background-color: blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .matter{
+                width: 320px;
+                height: 100%;
+              
+            }
+            .head{
+                font-size: 20px;
+                margin-top: 7px;
+                margin-left: 10px;
+                text-transform: capitalize;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .para{
+                font-size: 18px;
+                margin-top: 13px;
+                text-align: justify;
+                margin-left: 10px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+            }
+            .boxo{
+                width: 100%;
+                height: 30%;
+             
+                margin-top: 0px;
+                display: flex;
+                justify-content: center;
+             
+                gap: 60px;
+                flex-wrap: wrap;
+                margin-bottom: 30px;
+            }
+           
+            .blue{
+                width: 750px;
+                height: 70%;
+              
+                display: flex;
+               
+                margin-top: 65px;
+                margin-left: 200px;
+                background-color:#1A48B8;
+                border-radius: 20px;
+                flex-wrap: wrap;
+                
+            }
+            .child:nth-child(3){
+                display: flex;
+                
+            }
+            .photo{
+                height: 70%;
+                width: 450px;
+              
+             
+                
+                border-radius: 20px;
+                background-image: url(./img/photo.png);
+                background-size: 100% 100%;
+                right: 300;
+                top: 135;
+               transform: translate(-150px,100px);
+               
+
+            }
+            .bluetext{
+                width: 400px;
+                height: 80%;
+                
+                margin-top: 65px;
+                margin-left: 55px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex-wrap: wrap;
+                text-wrap: wrap;
+            }
+            .title{
+                font-size: 30px;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: white;
+            }
+            .par{
+                  color: white;
+                 margin-top: 30px;
+                 margin-right:70px;
+                 
+
+            }
+           .par div{
+                    margin-top: 4px;
+           }
+           .learn{
+                border: 1px solid white;
+                margin-right: 240;
+                width: 120px;
+                height: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 35px;
+                color: white;
+                text-transform: uppercase;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 13px;
+                letter-spacing: 1px;
+                border-radius: 20px;
+           }
+           .child:nth-child(4)
+           {
+            display: flex;
+            align-items: center;
+            
+           }
+           .pic{
+            width: 320px;
+            height: 70%;
+          
+            background-image: url(./img/pic.png);
+            background-size: 100% 100%;
+            margin-left: 120;
+           }
+           .cont{
+            width: 57%;
+            height: 80%;
+           
+            margin-left: 100;
+            margin-top: 20;
+
+
+           }.about{
+            font-size: 20px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            letter-spacing: 2px;
+           }
+           .tit{
+             font-size: 40px;
+             margin-top: 20px;
+            font-weight: 650;
+             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           }
+            .par1{
+                font-size: 17px;
+                margin-top: 5px;
+               
+            }
+            .support{
+                margin-top: 30px;
+                font-size: 18px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .multi{
+                margin-top: 10px;
+                font-size: 18px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .read{
+                border: 1px solid white;
+                /* margin-right: 240; */
+                width: 140px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 35px;
+                color: white;
+                text-transform: uppercase;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 13px;
+                letter-spacing: 1px;
+                border-radius: 20px;
+                background-color: blue;
+            }
+            .sq1{
+                width: 90px;
+                height: 90px;
+                border-radius: 100%;
+                border: 1px solid black;
+                margin-top: 25;
+                background-color: gray;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .tag{
+                font-size: 20px;
+                text-transform: uppercase;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                margin-top: 15;
+            }
+            .sq1 img{
+                width: 60px;
+                height: 60px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child">
+                <div class="header"></div>
+                <div class="laptop-img">
+                    <div class="mobilApp"><h1>Mobile App<br> Development</h1></div>
+                    <div class="icons">
+                        <div class="icon1">
+                            <div class="sq" ><div class="sq1"><img src="./img/business.png"></div><div class="tag">Strategy</div></div>
+                            <div class="sq"><div class="sq1"><img src="./img/ux-design.png"></div><div class="tag">ux design</div></div>
+                            <div class="sq"><div class="sq1"><img src="./img/monitor.png"></div><div class="tag">development</div></div>
+                            <div class="sq"><div class="sq1"><img src="./img/software-testing.png"></div><div class="tag">testing</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="child">
+                <div class="text">We Create Super-Awesome Designs</div>
+                <div class="text1">Duis  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu<br>fuguit nulla paritur. Excepteur sint occaecat cupidatat non proident.</div>
+                <div class="box">
+                    <div class="box1">
+                        <div class="tick"><div class="tick1"><i class="fa-solid fa-check fa-xl" style="color: #ffffff;"></i></div></div>
+                        <div class="matter">
+                            <div class="head">Amazing Design</div>
+                            <div class="para">Sample text. click to select the text box.click
+                            again ordouble click to start editing the text.</div>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="tick"><div class="tick1"><i class="fa-solid fa-check fa-xl" style="color: #ffffff;"></i></div></div>
+                        <div class="matter">
+                            <div class="head">Copywriting</div>
+                            <div class="para">Sample text. click to select the text box.click
+                            again ordouble click to start editing the text.</div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="boxo">
+                    <div class="box1">
+                        <div class="tick"><div class="tick1"><i class="fa-solid fa-check fa-xl" style="color: #ffffff;"></i></div></div>
+                        <div class="matter">
+                            <div class="head">Development</div>
+                            <div class="para">Sample text. click to select the text box.click
+                            again ordouble click to start editing the text.</div>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="tick"><div class="tick1"><i class="fa-solid fa-check fa-xl" style="color: #ffffff;"></i></div></div>
+                        <div class="matter">
+                            <div class="head">24/7 support</div>
+                            <div class="para">Sample text. click to select the text box.click
+                            again ordouble click to start editing the text.</div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+            <div class="child">
+                <div class="blue">
+                    <div class="bluetext">
+                        <div class="title">Why choose UX studio as your</div>
+                        <div class="title" style="margin-right: 125px;">app design partner?</div>
+                        <div class="par">Duis aute irure dolor in reprehenderit in<div class="1">voluptate velit esse cillum dolore eu fugiat nulla</div><div  class="1">voluptate velit esse cillum dolore eu fugiat nulla</div><div  class="1">pariatur. Excepteur sint occaecat cupidatat non</div><div  class="1">proident, sunt in culpa qui officia deserunt.</div></div>
+                        <div class="par" style="margin-right: 250;">Image from FreePik.</div>
+                        <div class="learn">Learn More</div>
+                    </div>
+                </div>
+                <div class="photo"></div>
+                
+            </div>
+            <div class="child">
+                <div class="pic"></div>
+                <div class="cont">
+                    <div class="about">ABOUT US</div>
+                    <div class="tit">Build your dream</div>
+                    <div class="tit" style="margin-top: 0; margin-bottom: 20px;">website today</div>
+                    <div class="par1">Article evident arrived express highest men did boy. Mistress sensible entirely am so.</div><div  class="par1"> Quick can manor smart money hopes worth too. Comfort produce husband boy her</div><div class="par1"> had hearing. Law others theirs passed but wishes. You day real less till dear read.</div>
+                    <div class="support"><i class="fa-solid fa-play" style="color: #f9561f;"></i>&nbsp;&nbsp;Support via E-mail and Phone</div>
+                    <div class="multi"><i class="fa-solid fa-play" style="color: #f9561f;"></i>&nbsp;&nbsp;Multi-Language Support</div>
+                    <div class="read">Read More</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
